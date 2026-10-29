@@ -5,5 +5,5 @@
   "keywords": ["handoff", "agent-skills", "context", "resume", "交接", "prompt", "claude-code", "codex", "hermes"],
   "author": "biggershun (大顺)",
   "license": "MIT",
-  "files": ["SKILL.md", "AGENTS.md", "README.md", "ATTRIBUTION.md", "LICENSE"]
+  "files": ["SKILL.md", "AGENTS.md", "README.md", "README.zh-CN.md", "ATTRIBUTION.md", "LICENSE"]
 }

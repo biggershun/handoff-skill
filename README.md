@@ -1,5 +1,7 @@
 # Handoff
 
+**English** · [简体中文](README.zh-CN.md)
+
 **One Markdown file that lets any model, in any session, pick up exactly where the last one stopped —
 without redoing work, re-asking questions, or walking into the dead ends you already ruled out.**
 
