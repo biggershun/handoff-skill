@@ -22,9 +22,11 @@ the list is classified as present / already-disabled / absent.
 - Use the same-generation device list rather than a generic Sony one — because the platform differs.
 
 ## Dead ends
-- Enabling HTTPS on the router — the switch is tailnet-level, in the account settings, not on the box.
-- Judging "is it configured" from the human-readable serve status — that output never contains the port,
-  so a watchdog re-configured every 10 minutes and spammed the user.
+- Reusing the 55X9500G list — different platform generation (UR2, Android TV 10), the package names do
+  not map; it would disable the wrong things.
+- Deleting the preinstalled store app instead of disabling it — needs root, and there is no undo.
+- Trusting the note at the top of the borrowed list ("rebooted and lived with") as if it described this
+  set — that text belongs to another device.
 
 ## Artifacts
 - `D:\Tools\cleanyourtv` — verified (venv + deps + CLI usage)
