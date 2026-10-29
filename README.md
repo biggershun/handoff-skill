@@ -125,4 +125,12 @@ Ideas taken from `mattpocock/skills` (the minimal handoff), `Jordanwei1/jiaojie-
 revalidation, format choice), `wilbeibi/catchup` (read the real session record) and `obra/superpowers`
 (skills that state their own failure modes). See [ATTRIBUTION.md](ATTRIBUTION.md).
 
+## Author
+
+**bigshun (大顺)** — [github.com/bigshun](https://github.com/bigshun)
+
+Search terms: handoff skill, agent handoff, session handoff, context handoff, AI 交接, 交接技能,
+上下文交接, 换会话继续, resume agent session, Claude Code skill, Codex skill, Hermes Agent skill,
+portable agent skill, prompt-only skill.
+
 MIT.
