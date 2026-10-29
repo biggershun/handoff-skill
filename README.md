@@ -14,7 +14,7 @@ Agent: wrote .handoff/2026-10-29-1558-tv-setup.md  (status: active, 38 lines)
 
 You:   接上次
 Agent: Goal: strip ads from the living-room TV.
-        Stopped: tool deployed to D:\Tools\cleanyourtv, TV not touched yet.
+        Stopped: tool deployed to /path/to/toolkit, TV not touched yet.
         Next: read the TV's model over ADB, then the read-only package check.
         One line is stale: the ports-check output from yesterday no longer applies — re-running it.
 ```
@@ -84,7 +84,7 @@ verified: 2026-10-29
 ---
 
 ## Where it stopped
-Tooling deployed to D:\Tools\cleanyourtv; venv + deps verified (`--help` on all three tools).
+Tooling deployed to /path/to/toolkit; venv + deps verified (`--help` on all three tools).
 The TV itself has not been touched. Evidence: `python tools/tv.py --probe` has not run yet.
 
 ## Next step
@@ -98,7 +98,7 @@ Done when: the reported platform matches the candidate debloat list.
 - Enabling HTTPS on the router — the switch is tailnet-level, not on the router.
 
 ## Artifacts
-- D:\Tools\cleanyourtv — verified
+- /path/to/toolkit — verified
 - examples/sony-x9000h-cn/debloat.txt — unverified (not yet compared to the TV)
 
 ## Boundaries

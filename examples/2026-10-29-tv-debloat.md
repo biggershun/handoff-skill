@@ -1,6 +1,6 @@
 ---
 date: 2026-10-29T15:58+08:00
-task: strip ads and telemetry from a Sony 75X9500H (Android TV, CN firmware)
+task: strip ads and telemetry from a an Android TV set (Sony, CN firmware)
 status: active
 supersedes: none
 verified: 2026-10-29
@@ -29,9 +29,9 @@ the list is classified as present / already-disabled / absent.
   set — that text belongs to another device.
 
 ## Artifacts
-- `D:\Tools\cleanyourtv` — verified (venv + deps + CLI usage)
-- `D:\Tools\cleanyourtv\examples\sony-x9000h-cn\debloat.txt` — unverified against the real TV
-- `D:\Tools\cleanyourtv\README-本地部署.md` — verified (written, 2.2 KB)
+- `/path/to/toolkit` — verified (venv + deps + CLI usage)
+- `/path/to/toolkit/examples/<device>/debloat.txt` — unverified against the real TV
+- `/path/to/toolkit/README.md` — verified (written, 2.2 KB)
 
 ## Boundaries
 - Already authorized: enabling debugging on the TV, read-only probing.

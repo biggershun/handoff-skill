@@ -1,10 +1,11 @@
 > Drop-in for agents that read `AGENTS.md` instead of skills (Codex, OpenCode, some chat setups).
 > Append this file to your project's `AGENTS.md`, or keep it as-is and reference it.
 
+
 # Handoff
 
-Carry the work forward in the smallest artifact that preserves the next step. Plain Markdown, no
-scripts, no dependencies — it works in any chat model or coding agent that can read a skill or a rules
+One small Markdown file that lets the next session continue the work instead of restarting it. No
+scripts, no dependencies — it runs in any chat model or coding agent that can read a skill or a rules
 file.
 
 Natural-language triggers: `handoff` · `交接` · `交接一下` · `写份交接` · `接上次` · `接着上次` ·
@@ -92,8 +93,8 @@ a handoff, then proceed.
 2. **Stale check before acting**: do the artifacts still exist, is the service still up, has the work
    moved since `verified`? If a line is stale, say which and re-check it. Never silently trust an old
    claim.
-3. Do not re-ask answered questions. Do not re-walk a dead end. Do not redo artifacts marked verified
-   and still current.
+3. Never ask again what the handoff already answers, never retry a recorded dead end, and never
+   rebuild an artifact that is marked verified and still current.
 4. **Finish condition**: the "Next step" is done and its definition of done holds, or the user says
    stop. Then say so in one line and set `status: done`, or write a new handoff if work remains.
 5. A requested pause is success, not failure. "I stopped as asked" is a valid outcome.
