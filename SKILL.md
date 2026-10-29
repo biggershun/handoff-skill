@@ -6,7 +6,7 @@ description: >
   left off", "continue this in a new chat", "hand this to another agent", or when the context is
   long, about to be compacted, or the work moves to a different agent or device.
 version: 2.0.0
-author: bigshun (大顺)
+author: biggershun (大顺)
 license: MIT
 ---
 

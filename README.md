@@ -127,7 +127,7 @@ revalidation, format choice), `wilbeibi/catchup` (read the real session record) 
 
 ## Author
 
-**bigshun (大顺)** — [github.com/biggershun](https://github.com/biggershun)
+**biggershun (大顺)** — [github.com/biggershun](https://github.com/biggershun)
 
 Search terms: handoff skill, agent handoff, session handoff, context handoff, AI 交接, 交接技能,
 上下文交接, 换会话继续, resume agent session, Claude Code skill, Codex skill, Hermes Agent skill,

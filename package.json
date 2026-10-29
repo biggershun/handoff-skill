@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "Write or resume a compact handoff so a fresh session or another model continues the work.",
   "keywords": ["handoff", "agent-skills", "context", "resume", "交接", "prompt", "claude-code", "codex", "hermes"],
-  "author": "bigshun (大顺)",
+  "author": "biggershun (大顺)",
   "license": "MIT",
   "files": ["SKILL.md", "AGENTS.md", "README.md", "ATTRIBUTION.md", "LICENSE"]
 }
